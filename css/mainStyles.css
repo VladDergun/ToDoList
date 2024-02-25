@@ -109,7 +109,7 @@
 
 .err-txt {
     margin-top: -30px;
-    margin-right: 15%;
+    margin-right: 0%;
     color: #d91616;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -177,6 +177,8 @@
         padding-right: 40px;
         margin-left: 10%;
     }
+
+    
 }
 @media only screen and (max-width: 450px) {
     .header-title {
@@ -208,7 +210,7 @@
     .search-bar {
         width: 200px;
         color: white;
-        margin-top: 30px;
+        margin-top: 25px;
         padding: 8px; /* Padding for input */
         background-color: inherit;
         font-size: 16px; /* Font size for input */
@@ -219,7 +221,7 @@
     .add-btn {
         padding: 5px 10px; /* Increase padding for better clickability */
         margin-left: 20px;
-        margin-top: 30px;
+        margin-top: 25px;
         width: 100px;
         height: 40px;
         font-size: 13px; /* Font size for button */
@@ -259,6 +261,26 @@
         padding-right: 0px;
         margin-left: 10%;
     }
+    .err-txt {
+        margin-top: -1px;
+        margin-right: 35%;
+        color: #d91616;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        font-size: 14px;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .err-txt {
+        margin-top: -1px;
+        margin-right: 35%;
+        color: #d91616;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        font-size: 14px;
+        justify-content: center;
+    }
 }
 @media only screen and (max-width: 350px) {
     .header-title {
@@ -267,6 +289,7 @@
         font-weight: bold;
         color: white; /* Orange color for header title */
     }
+
     .btn-bar-btn {
         background: none;
         border: none;
@@ -342,8 +365,19 @@
         padding-right: 0px;
         margin-left: 10%;
     }
+
+    .err-txt {
+        margin-top: 0px;
+        margin-right: 35%;
+        color: #d91616;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        font-size: 12px;
+        justify-content: center;
+    }
 }
-@media only screen and (max-width: 300px){
+
+@media only screen and (max-width: 300px) {
     .header-title {
         font-size: 15px;
         font-family: 'Roboto', sans-serif; /* Replace 'Roboto' with your chosen font */
